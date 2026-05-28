@@ -8,7 +8,7 @@
 ## 🙋‍♀️ About Me
 
 ```
-Name     →  Akanksha Powar
+Name     →  Akanksha Shivaji Powar
 Role     →  Software Developer
 Company  →  Secret Weapon Trading Solution Pvt. Ltd.
 Period   →  August 2025 – Present
