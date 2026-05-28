@@ -1,6 +1,6 @@
 # 💼 Professional Work — Secret Weapon Trading Solution Pvt. Ltd.
 
-> **1000+ commits across private company repositories (Aug 2024 – Present)**
+> **1000+ commits across private company repositories (Aug 2025 – Present)**
 > All source code is proprietary and confidential. This repository documents the work, architecture, and technical achievements from my time at Secret Weapon Trading Solution.
 
 ---
