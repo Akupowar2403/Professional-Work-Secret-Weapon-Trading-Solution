@@ -157,7 +157,6 @@ A full-stack lab management platform for clinical labs to manage patients, tests
 - 🏥 GitHub Actions CI/CD + Nginx + Certbot SSL on GCP
 
 🔗 **Live:** [lab.fenyxn.in](https://lab.fenyxn.in)
-📂 **Repo:** [github.com/Fenyxn/Laboratory-Management-System](https://github.com/Fenyxn/Laboratory-Management-System)
 
 **Tech Stack:**
 `Python` `FastAPI` `Next.js` `PostgreSQL` `Keycloak` `WhatsApp API` `Node.js` `Docker` `GCP` `GitHub Actions`
