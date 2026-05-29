@@ -1,11 +1,11 @@
-# 💼 Professional Work — Secret Weapon Trading Solution Pvt. Ltd.
+#  Professional Work — Secret Weapon Trading Solution Pvt. Ltd.
 
 > **1000+ commits across private company repositories (Aug 2025 – Present)**
 > All source code is proprietary and confidential. This repository documents the work, architecture, and technical achievements from my time at Secret Weapon Trading Solution.
 
 ---
 
-## 🙋‍♀️ About Me
+##  About Me
 
 ```
 Name     →  Akanksha Shivaji Powar
@@ -22,13 +22,13 @@ Location →  Kolhapur, Maharashtra, India
 
 ---
 
-## 🏢 Company Overview
+##  Company Overview
 
 **Secret Weapon Trading Solution Pvt. Ltd.** is a fintech company building real-time market data platforms, trading automation systems, and enterprise management tools. I joined as a Software Developer and have been the primary developer across multiple production systems.
 
 ---
 
-## 🚀 Projects
+##  Projects
 
 ### 1. SpaceTime — Real-Time Market Data Platform
 
@@ -38,13 +38,13 @@ Location →  Kolhapur, Maharashtra, India
 A microservices-based market data platform that ingests and processes **10,000+ ticks per second** from a live DTN market feed, computes custom Space-Time Indicators, and streams everything to a multi-chart frontend in real time.
 
 **Key Technical Achievements:**
-- 🔴 Replaced pandas with **NumPy vectorized arrays** — 10x computation speed improvement
-- 🔴 Built **Redis Pub/Sub pipeline** for zero-latency inter-service communication
-- 🔴 Designed **message batching** at the API Gateway (TradingView-style) to handle peak market load
-- 🔴 Implemented **backpressure handling** to prevent system overload during high-frequency data bursts
-- 🔴 Built **10,000-entry Redis buffer queue** to eliminate data loss under peak throughput
-- 🔴 WebSocket **auto-reconnect with exponential backoff** for reliable client recovery
-- 🔴 **Keycloak JWT auth** with token refresh — resolved race conditions with session locking
+-  Replaced pandas with **NumPy vectorized arrays** — 10x computation speed improvement
+-  Built **Redis Pub/Sub pipeline** for zero-latency inter-service communication
+-  Designed **message batching** at the API Gateway (TradingView-style) to handle peak market load
+-  Implemented **backpressure handling** to prevent system overload during high-frequency data bursts
+-  Built **10,000-entry Redis buffer queue** to eliminate data loss under peak throughput
+-  WebSocket **auto-reconnect with exponential backoff** for reliable client recovery
+-  **Keycloak JWT auth** with token refresh — resolved race conditions with session locking
 
 **Space-Time Reversal Indicator — 4 Versions:**
 ```
@@ -78,14 +78,14 @@ All versions tested live on market during peak hours. Adaptive buffer uses 80:20
 A real-time trading automation system that auto-logs into Zerodha at 8:30 AM, subscribes to live KiteTicker WebSocket feeds, computes Supertrend + ATR signals, and executes equity and options orders automatically.
 
 **Key Technical Achievements:**
-- ⚡ **Auto-login at exactly 8:30 AM** — access token saved to PostgreSQL and reused to skip redundant logins
-- ⚡ **Multi-symbol concurrent subscription** with one-by-one rate-limited registration
-- ⚡ **Forward test mode** with virtual capital — simulates execution without real orders
-- ⚡ **Option chain integration** — auto strike selection based on spot price and user-defined levels
-- ⚡ **Auto expiry detection** for FNO derivatives
-- ⚡ **Margin validation** before every order placement
-- ⚡ **Trade logs** saved to PostgreSQL with IST timestamps
-- ⚡ Live tested on Equity, FNO, and Options segments
+-  **Auto-login at exactly 8:30 AM** — access token saved to PostgreSQL and reused to skip redundant logins
+-  **Multi-symbol concurrent subscription** with one-by-one rate-limited registration
+-  **Forward test mode** with virtual capital — simulates execution without real orders
+-  **Option chain integration** — auto strike selection based on spot price and user-defined levels
+-  **Auto expiry detection** for FNO derivatives
+-  **Margin validation** before every order placement
+-  **Trade logs** saved to PostgreSQL with IST timestamps
+-  Live tested on Equity, FNO, and Options segments
 
 **Indicators Built:**
 ```
@@ -127,13 +127,13 @@ A comprehensive enterprise platform covering project tracking, client/developer 
 | **Email Automation** | Automated emails on invoice creation, project updates, task assignments |
 
 **Key Technical Achievements:**
-- 📋 **GST/LUT invoice system** for both Indian clients (CGST/SGST) and foreign clients (LUT)
-- 📋 **PDF generation** with logo, signature, rupee symbol using canvas library
-- 📋 **Salary slip automation** — PF and ESIC auto-calculated from working days
-- 📋 **Developer profit ratio** — auto-adjusts to sum to 100% across developers
-- 📋 **Keycloak Google Login** — SSO with role-based groups
-- 📋 **Electron desktop app** — full feature parity with the web version
-- 📋 **Fully responsive** mobile layout across all 15+ pages
+-  **GST/LUT invoice system** for both Indian clients (CGST/SGST) and foreign clients (LUT)
+-  **PDF generation** with logo, signature, rupee symbol using canvas library
+-  **Salary slip automation** — PF and ESIC auto-calculated from working days
+-  **Developer profit ratio** — auto-adjusts to sum to 100% across developers
+-  **Keycloak Google Login** — SSO with role-based groups
+-  **Electron desktop app** — full feature parity with the web version
+   **Fully responsive** mobile layout across all 15+ pages
 
 **Tech Stack:**
 `Python` `FastAPI` `Next.js` `TypeScript` `Electron` `PostgreSQL` `Keycloak` `Google OAuth` `PDF Canvas` `FullCalendar` `Email Automation`
@@ -150,11 +150,11 @@ A comprehensive enterprise platform covering project tracking, client/developer 
 A full-stack lab management platform for clinical labs to manage patients, tests, billing, and reports — with automated WhatsApp notifications and Keycloak RBAC.
 
 **Key Features:**
-- 🏥 Patient registration, test tracking, report delivery
-- 🏥 Automated WhatsApp notifications (Node.js microservice)
-- 🏥 Keycloak group-based multi-lab RBAC
-- 🏥 5 Docker containers — FastAPI, Next.js, PostgreSQL, Keycloak, WhatsApp
-- 🏥 GitHub Actions CI/CD + Nginx + Certbot SSL on GCP
+-  Patient registration, test tracking, report delivery
+-  Automated WhatsApp notifications (Node.js microservice)
+-  Keycloak group-based multi-lab RBAC
+-  5 Docker containers — FastAPI, Next.js, PostgreSQL, Keycloak, WhatsApp
+-  GitHub Actions CI/CD + Nginx + Certbot SSL on GCP
 
 🔗 **Live:** [lab.fenyxn.in](https://lab.fenyxn.in)
 
@@ -214,14 +214,14 @@ May 2026   →  Finance module · HR · Email automation
 
 ---
 
-## 🌐 Links
+##  Links
 
 | | |
 |---|---|
-| 🌐 Portfolio | [portfolio.fenyxn.in](https://portfolio.fenyxn.in) |
-| 🏥 Live Project | [lab.fenyxn.in](https://lab.fenyxn.in) |
-| 💼 LinkedIn | [linkedin.com/in/akanksha-powar](https://linkedin.com/in/akanksha-powar) |
-| 📧 Email | powarakanksha9188@gmail.com |
+|  Portfolio | [portfolio.fenyxn.in](https://portfolio.fenyxn.in) |
+|  Live Project | [lab.fenyxn.in](https://lab.fenyxn.in) |
+|  LinkedIn | [linkedin.com/in/akanksha-powar](https://linkedin.com/in/akanksha-powar) |
+|  Email | powarakanksha9188@gmail.com |
 
 ---
 
